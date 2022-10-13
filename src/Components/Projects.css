@@ -19,11 +19,31 @@
   background: var(--color-primary-variant);
 }
 
+/* .portofolio__item-img {
+  border-radius: 1.5rem;
+  overflow: auto;
+}
+
+.portofolio__item-img-imprebuild {
+  background-image: url(../assets/portfolio1.jpg);
+  background-size: 100%;
+  background-position: center;
+  height: 210px;
+  border-radius: 5%;
+} */
+
 .portofolio__item-img {
   border-radius: 1.5rem;
+  width: 80%;
+  margin: auto;
 
-  overflow: auto;
+}
 
+.imgine {
+  width: 100%;
+  height: 210px;
+  object-fit: cover;
+  border-radius: 5%;
 }
 
 .portofolio__item h3 {
